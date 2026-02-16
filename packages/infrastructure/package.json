@@ -1,0 +1,9 @@
+{
+  "name": "@turbo-ninja/infrastructure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@turbo-ninja/domain": "*"
+  },
+  "type": "module"
+}

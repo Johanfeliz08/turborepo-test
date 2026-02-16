@@ -1,0 +1,14 @@
+{
+  "name": "@turbo-ninja/cli",
+  "bin": {
+    "mycli": "main.js"
+  },
+  "scripts": {
+    "dev": "node ./main.ts"
+  },
+  "dependencies": {
+    "@turbo-ninja/application": "*",
+    "@turbo-ninja/infrastructure": "*"
+  },
+  "type": "module"
+}

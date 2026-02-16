@@ -1,0 +1,26 @@
+{
+  "name": "turbo-ninja",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "packageManager": "npm@11.6.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "start": "node ./apps/cli/main.ts",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "turbo": "^2.8.9"
+  }
+}
